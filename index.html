@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clube de Desbravadores Israel - Login</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background: linear-gradient(to bottom, #6ecb5a, #639447);
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        width: 400px;
+        margin: 100px auto;
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+      }
+      h1 {
+        text-align: center;
+        font-size: 36px;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000000;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      label {
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      input[type="text"],
+      input[type="password"] {
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 20px;
+      }
+      input[type="submit"] {
+        background-color: #6ecb5a;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+      }
+      input[type="submit"]:hover {
+        background-color: #639447;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Clube de Desbravadores Israel</h1>
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 30px;">Login</h2>
+      <form>
+        <label for="username">Usuário</label>
+        <input type="text" name="username" id="username" />
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password" />
+        <input type="submit" value="Entrar" />
+      </form>
+    </div>
+  </body>
+</html>
